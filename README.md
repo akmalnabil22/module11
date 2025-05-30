@@ -18,7 +18,7 @@
 
 
 2. Untuk mencoba deployment dengan Recreate, saya menggunakan perintah `kubectl edit deployment spring-petclinic-rest` agar bisa mengedit file deployment.  
-1[](./img/edit-yaml.png)  
+![](./img/edit-yaml.png)  
 Setelah itu saya set image kembali ke 3.0.2 untuk melihat proses update. Setelah set image, proses update berjalan seperti ini  
 ![](./img/pods-recreate.png)  
 ![](/img/deployment-recreate.png)  
